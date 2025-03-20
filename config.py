@@ -59,12 +59,3 @@ CONFIG = {
         },
 	},
 
-    'github': {
-        'class_': oauth2.GitHub,
-        'consumer_key': '##########',
-        'consumer_secret': '##########',
-        'access_headers': {'User-Agent': 'Awesome-Octocat-App'},
-        'scope': oauth2.GitHub.user_info_scope + ['user:email'],
-    }
-}
-
